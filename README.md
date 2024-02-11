@@ -1,97 +1,82 @@
-# [![Mattermost logo](https://user-images.githubusercontent.com/7205829/137170381-fe86eef0-bccc-4fdd-8e92-b258884ebdd7.png)](https://mattermost.com)
-
-[Mattermost](https://mattermost.com) is an open source platform for secure collaboration across the entire software development lifecycle. This repo is the primary source for core development on the Mattermost platform; it's written in Go and React and runs as a single Linux binary with MySQL or PostgreSQL. A new compiled version is released under an MIT license every month on the 16th.
-
-[Deploy Mattermost on-premises](https://mattermost.com/deploy/?utm_source=github-mattermost-server-readme), or [try it for free in the cloud](https://mattermost.com/sign-up/?utm_source=github-mattermost-server-readme).
-
-<img width="1006" alt="mattermost user interface" src="https://user-images.githubusercontent.com/7205829/136107976-7a894c9e-290a-490d-8501-e5fdbfc3785a.png">
-
-Learn more about the following use cases with Mattermost:
-
-- [DevSecOps](https://mattermost.com/solutions/use-cases/devops/?utm_source=github-mattermost-server-readme)
-- [Incident Resolution](https://mattermost.com/solutions/use-cases/incident-resolution/?utm_source=github-mattermost-server-readme)
-- [IT Service Desk](https://mattermost.com/solutions/use-cases/it-service-desk/?utm_source=github-mattermost-server-readme)
-
-Other useful resources:
-
-- [Download and Install Mattermost](https://docs.mattermost.com/guides/deployment.html) - Install, setup, and configure your own Mattermost instance.
-- [Product documentation](https://docs.mattermost.com/) - Learn how to run a Mattermost instance and take advantage of all the features.
-- [Developer documentation](https://developers.mattermost.com/) - Contribute code to Mattermost or build an integration via APIs, Webhooks, slash commands, Apps, and plugins.
-
-Table of contents
-=================
-
-- [Install Mattermost](#install-mattermost)
-- [Native mobile and desktop apps](#native-mobile-and-desktop-apps)
-- [Get security bulletins](#get-security-bulletins)
-- [Get involved](#get-involved)
-- [Learn more](#learn-more)
-- [License](#license)
-- [Get the latest news](#get-the-latest-news)
-- [Contributing](#contributing)
-
-## Install Mattermost
-
-- [Download and Install Mattermost Self-Hosted](https://docs.mattermost.com/guides/deployment.html) - Deploy a Mattermost Self-hosted instance in minutes via Docker, Ubuntu, or tar.
-- [Get started in the cloud](https://mattermost.com/sign-up/?utm_source=github-mattermost-server-readme) to try Mattermost today.
-- [Developer machine setup](https://developers.mattermost.com/contribute/server/developer-setup) - Follow this guide if you want to write code for Mattermost.
-
-
-Other install guides:
-
-- [Deploy Mattermost on Docker](https://docs.mattermost.com/install/install-docker.html)
-- [Mattermost Omnibus](https://docs.mattermost.com/install/installing-mattermost-omnibus.html)
-- [Install Mattermost from Tar](https://docs.mattermost.com/install/install-tar.html)
-- [Ubuntu 20.04 LTS](https://docs.mattermost.com/install/installing-ubuntu-2004-LTS.html)
-- [Kubernetes](https://docs.mattermost.com/install/install-kubernetes.html)
-- [Helm](https://docs.mattermost.com/install/install-kubernetes.html#installing-the-operators-via-helm)
-- [Debian Buster](https://docs.mattermost.com/install/install-debian.html)
-- [RHEL 8](https://docs.mattermost.com/install/install-rhel-8.html)
-- [More server install guides](https://docs.mattermost.com/guides/deployment.html)
-
-## Native mobile and desktop apps
-
-In addition to the web interface, you can also download Mattermost clients for [Android](https://mattermost.com/pl/android-app/), [iOS](https://mattermost.com/pl/ios-app/), [Windows PC](https://docs.mattermost.com/install/desktop-app-install.html#windows-10-windows-8-1), [macOS](https://docs.mattermost.com/install/desktop-app-install.html#macos-10-9), and [Linux](https://docs.mattermost.com/install/desktop-app-install.html#linux).
-
-[<img src="https://user-images.githubusercontent.com/30978331/272826427-6200c98f-7319-42c3-86d4-0b33ae99e01a.png" alt="Get Mattermost on Google Play" height="50px"/>](https://mattermost.com/pl/android-app/)  [<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Get Mattermost on the App Store" height="50px"/>](https://itunes.apple.com/us/app/mattermost/id1257222717?mt=8)  [![Get Mattermost on Windows PC](https://user-images.githubusercontent.com/33878967/33095357-39cab8d2-ceb8-11e7-89a6-67dccc571ca3.png)](https://docs.mattermost.com/install/desktop.html#windows-10-windows-8-1-windows-7)  [![Get Mattermost on Mac OSX](https://user-images.githubusercontent.com/33878967/33095355-39a36f2a-ceb8-11e7-9b33-73d4f6d5d6c1.png)](https://docs.mattermost.com/install/desktop.html#macos-10-9)  [![Get Mattermost on Linux](https://user-images.githubusercontent.com/33878967/33095354-3990e256-ceb8-11e7-965d-b00a16e578de.png)](https://docs.mattermost.com/install/desktop.html#linux)
-
-## Get security bulletins
-
-Receive notifications of critical security updates. The sophistication of online attackers is perpetually increasing. If you're deploying Mattermost it's highly recommended you subscribe to the Mattermost Security Bulletin mailing list for updates on critical security releases.
-
-[Subscribe here](https://mattermost.com/security-updates/#sign-up)
-
-## Get involved
-
-- [Contribute to Mattermost](https://handbook.mattermost.com/contributors/contributors/ways-to-contribute)
-- [Find "Help Wanted" projects](https://github.com/mattermost/mattermost-server/issues?page=1&q=is%3Aissue+is%3Aopen+%22Help+Wanted%22&utf8=%E2%9C%93)
-- [Join Developer Discussion on a Mattermost server for contributors](https://community.mattermost.com/signup_user_complete/?id=f1924a8db44ff3bb41c96424cdc20676)
-- [Get Help With Mattermost](https://docs.mattermost.com/guides/get-help.html)
-
-## Learn more
-
-- [API options - webhooks, slash commands, drivers, and web service](https://api.mattermost.com/)
-- [See who's using Mattermost](https://mattermost.com/customers/)
-- [Browse over 700 Mattermost integrations](https://mattermost.com/marketplace/)
-
-## License
-
-See the [LICENSE file](LICENSE.txt) for license rights and limitations.
-
-## Get the latest news
-
-- **X** - Follow [Mattermost on X, formerly Twitter](https://twitter.com/mattermost).
-- **Blog** - Get the latest updates from the [Mattermost blog](https://mattermost.com/blog/).
-- **Facebook** - Follow [Mattermost on Facebook](https://www.facebook.com/MattermostHQ).
-- **LinkedIn** - Follow [Mattermost on LinkedIn](https://www.linkedin.com/company/mattermost/).
-- **Email** - Subscribe to our [newsletter](https://mattermost.us11.list-manage.com/subscribe?u=6cdba22349ae374e188e7ab8e&id=2add1c8034) (1 or 2 per month).
-- **Mattermost** - Join the ~contributors channel on [the Mattermost Community Server](https://community.mattermost.com).
-- **IRC** - Join the #matterbridge channel on [Freenode](https://freenode.net/) (thanks to [matterircd](https://github.com/42wim/matterircd)).
-- **YouTube** -  Subscribe to [Mattermost](https://www.youtube.com/@MattermostHQ).
-
-## Contributing
-
-[![Small Image](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost)
-
-Please see [CONTRIBUTING.md](./CONTRIBUTING.md).
-[Join the Mattermost Contributors server](https://community.mattermost.com/signup_user_complete/?id=codoy5s743rq5mk18i7u5ksz7e) to join community discussions about contributions, development, and more.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="" class="anchor" aria-hidden="true" tabindex="-1" href="#"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><a href="https://mattermost.com" rel="nofollow"><img src="https://user-images.githubusercontent.com/7205829/137170381-fe86eef0-bccc-4fdd-8e92-b258884ebdd7.png" alt="最重要的标志" style="max-width: 100%;"></a></h1>
+<p dir="auto"><a href="https://mattermost.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mattermost</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个开源平台，用于在整个软件开发生命周期中进行安全协作。</font><font style="vertical-align: inherit;">该存储库是 Mattermost 平台上核心开发的主要来源；</font><font style="vertical-align: inherit;">它是用 Go 和 React 编写的，并作为单个 Linux 二进制文件与 MySQL 或 PostgreSQL 一起运行。</font><font style="vertical-align: inherit;">每个月 16 日都会在 MIT 许可下发布新的编译版本。</font></font></p>
+<p dir="auto"><a href="https://mattermost.com/deploy/?utm_source=github-mattermost-server-readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在本地部署 Mattermost</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，或</font></font><a href="https://mattermost.com/sign-up/?utm_source=github-mattermost-server-readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在云中免费试用</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/7205829/136107976-7a894c9e-290a-490d-8501-e5fdbfc3785a.png"><img width="1006" alt="最重要的用户界面" src="https://user-images.githubusercontent.com/7205829/136107976-7a894c9e-290a-490d-8501-e5fdbfc3785a.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解有关 Mattermost 的以下用例的更多信息：</font></font></p>
+<ul dir="auto">
+<li><a href="https://mattermost.com/solutions/use-cases/devops/?utm_source=github-mattermost-server-readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发安全运营</font></font></a></li>
+<li><a href="https://mattermost.com/solutions/use-cases/incident-resolution/?utm_source=github-mattermost-server-readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">事件解决</font></font></a></li>
+<li><a href="https://mattermost.com/solutions/use-cases/it-service-desk/?utm_source=github-mattermost-server-readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IT服务台</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他有用的资源：</font></font></p>
+<ul dir="auto">
+<li><a href="https://docs.mattermost.com/guides/deployment.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载并安装 Mattermost</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 安装、设置和配置您自己的 Mattermost 实例。</font></font></li>
+<li><a href="https://docs.mattermost.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">产品文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 了解如何运行 Mattermost 实例并利用所有功能。</font></font></li>
+<li><a href="https://developers.mattermost.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 向 Mattermost 贡献代码或通过 API、Webhooks、斜线命令、应用程序和插件构建集成。</font></font></li>
+</ul>
+<h1 tabindex="-1" dir="auto"><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" tabindex="-1" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录</font></font></h1>
+<ul dir="auto">
+<li><a href="#install-mattermost"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Mattermost</font></font></a></li>
+<li><a href="#native-mobile-and-desktop-apps"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本机移动和桌面应用程序</font></font></a></li>
+<li><a href="#get-security-bulletins"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取安全公告</font></font></a></li>
+<li><a href="#get-involved"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参与其中</font></font></a></li>
+<li><a href="#learn-more"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多</font></font></a></li>
+<li><a href="#license"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></a></li>
+<li><a href="#get-the-latest-news"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取最新消息</font></font></a></li>
+<li><a href="#contributing"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-install-mattermost" class="anchor" aria-hidden="true" tabindex="-1" href="#install-mattermost"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Mattermost</font></font></h2>
+<ul dir="auto">
+<li><a href="https://docs.mattermost.com/guides/deployment.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载并安装 Mattermost 自托管</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 通过 Docker、Ubuntu 或 tar 在几分钟内部署 Mattermost 自托管实例。</font></font></li>
+<li><a href="https://mattermost.com/sign-up/?utm_source=github-mattermost-server-readme" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">立即开始在云中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试 Mattermost。</font></font></li>
+<li><a href="https://developers.mattermost.com/contribute/server/developer-setup" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员机器设置</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 如果您想为 Mattermost 编写代码，请遵循本指南。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他安装指南：</font></font></p>
+<ul dir="auto">
+<li><a href="https://docs.mattermost.com/install/install-docker.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Docker 上部署 Mattermost</font></font></a></li>
+<li><a href="https://docs.mattermost.com/install/installing-mattermost-omnibus.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最重要的综合</font></font></a></li>
+<li><a href="https://docs.mattermost.com/install/install-tar.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从 Tar 安装 Mattermost</font></font></a></li>
+<li><a href="https://docs.mattermost.com/install/installing-ubuntu-2004-LTS.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ubuntu 20.04 LTS</font></font></a></li>
+<li><a href="https://docs.mattermost.com/install/install-kubernetes.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库伯内斯</font></font></a></li>
+<li><a href="https://docs.mattermost.com/install/install-kubernetes.html#installing-the-operators-via-helm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">舵</font></font></a></li>
+<li><a href="https://docs.mattermost.com/install/install-debian.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Debian 巴斯特</font></font></a></li>
+<li><a href="https://docs.mattermost.com/install/install-rhel-8.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RHEL 8</font></font></a></li>
+<li><a href="https://docs.mattermost.com/guides/deployment.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多服务器安装指南</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-native-mobile-and-desktop-apps" class="anchor" aria-hidden="true" tabindex="-1" href="#native-mobile-and-desktop-apps"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本机移动和桌面应用程序</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了 Web 界面之外，您还可以下载适用于</font></font><a href="https://mattermost.com/pl/android-app/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://mattermost.com/pl/ios-app/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.mattermost.com/install/desktop-app-install.html#windows-10-windows-8-1" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows PC</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.mattermost.com/install/desktop-app-install.html#macos-10-9" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">macOS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://docs.mattermost.com/install/desktop-app-install.html#linux" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的 Mattermost 客户端。</font></font></p>
+<p dir="auto"><a href="https://mattermost.com/pl/android-app/" rel="nofollow"><img src="https://user-images.githubusercontent.com/30978331/272826427-6200c98f-7319-42c3-86d4-0b33ae99e01a.png" alt="在 Google Play 上获取 Mattermost" height="50px" style="max-width: 100%;"></a>  <a href="https://itunes.apple.com/us/app/mattermost/id1257222717?mt=8" rel="nofollow"><img src="https://camo.githubusercontent.com/c4395f930c17c2f878dbd98b55d461375f6feb7a998e0ac6e3be2376b8429b8a/68747470733a2f2f646576656c6f7065722e6170706c652e636f6d2f6173736574732f656c656d656e74732f6261646765732f646f776e6c6f61642d6f6e2d7468652d6170702d73746f72652e737667" alt="在 App Store 上获取 Mattermost" height="50px" data-canonical-src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" style="max-width: 100%;"></a>  <a href="https://docs.mattermost.com/install/desktop.html#windows-10-windows-8-1-windows-7" rel="nofollow"><img src="https://user-images.githubusercontent.com/33878967/33095357-39cab8d2-ceb8-11e7-89a6-67dccc571ca3.png" alt="在 Windows PC 上获取 Mattermost" style="max-width: 100%;"></a>  <a href="https://docs.mattermost.com/install/desktop.html#macos-10-9" rel="nofollow"><img src="https://user-images.githubusercontent.com/33878967/33095355-39a36f2a-ceb8-11e7-9b33-73d4f6d5d6c1.png" alt="在 Mac OSX 上获取 Mattermost" style="max-width: 100%;"></a>  <a href="https://docs.mattermost.com/install/desktop.html#linux" rel="nofollow"><img src="https://user-images.githubusercontent.com/33878967/33095354-3990e256-ceb8-11e7-965d-b00a16e578de.png" alt="在 Linux 上获取 Mattermost" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-get-security-bulletins" class="anchor" aria-hidden="true" tabindex="-1" href="#get-security-bulletins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取安全公告</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接收重要安全更新的通知。</font><font style="vertical-align: inherit;">在线攻击者的复杂程度不断提高。</font><font style="vertical-align: inherit;">如果您正在部署 Mattermost，强烈建议您订阅 Mattermost 安全公告邮件列表，以获取关键安全版本的更新。</font></font></p>
+<p dir="auto"><a href="https://mattermost.com/security-updates/#sign-up" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里订阅</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-get-involved" class="anchor" aria-hidden="true" tabindex="-1" href="#get-involved"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参与其中</font></font></h2>
+<ul dir="auto">
+<li><a href="https://handbook.mattermost.com/contributors/contributors/ways-to-contribute" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 Mattermost 做出贡献</font></font></a></li>
+<li><a href="https://github.com/mattermost/mattermost-server/issues?page=1&amp;q=is%3Aissue+is%3Aopen+%22Help+Wanted%22&amp;utf8=%E2%9C%93"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查找“需要帮助”的项目</font></font></a></li>
+<li><a href="https://community.mattermost.com/signup_user_complete/?id=f1924a8db44ff3bb41c96424cdc20676" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Mattermost 服务器上为贡献者加入开发者讨论</font></font></a></li>
+<li><a href="https://docs.mattermost.com/guides/get-help.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取有关 Mattermost 的帮助</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-learn-more" class="anchor" aria-hidden="true" tabindex="-1" href="#learn-more"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多</font></font></h2>
+<ul dir="auto">
+<li><a href="https://api.mattermost.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API 选项 - Webhooks、斜线命令、驱动程序和 Web 服务</font></font></a></li>
+<li><a href="https://mattermost.com/customers/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看谁在使用 Mattermost</font></font></a></li>
+<li><a href="https://mattermost.com/marketplace/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览 700 多个 Mattermost 集成</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关许可权利和限制，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="/mattermost/mattermost/blob/master/LICENSE.txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LICENSE 文件。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-get-the-latest-news" class="anchor" aria-hidden="true" tabindex="-1" href="#get-the-latest-news"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取最新消息</font></font></h2>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">X</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 在 X（以前称为 Twitter）上关注</font></font><a href="https://twitter.com/mattermost" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mattermost</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客- 从</font></font></strong><font style="vertical-align: inherit;"></font><a href="https://mattermost.com/blog/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mattermost 博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取最新更新</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Facebook</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 在 Facebook 上关注</font></font><a href="https://www.facebook.com/MattermostHQ" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mattermost</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LinkedIn</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 在 LinkedIn 上关注</font></font><a href="https://www.linkedin.com/company/mattermost/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mattermost</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电子邮件</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 订阅我们的</font></font><a href="https://mattermost.us11.list-manage.com/subscribe?u=6cdba22349ae374e188e7ab8e&amp;id=2add1c8034" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时事通讯</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（每月 1 或 2 期）。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mattermost - 加入</font></font></strong><font style="vertical-align: inherit;"></font><a href="https://community.mattermost.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mattermost 社区服务器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的 ~contributors 频道</font><font style="vertical-align: inherit;">&ZeroWidthSpace;&ZeroWidthSpace;。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IRC - 加入</font></font></strong><font style="vertical-align: inherit;"></font><a href="https://freenode.net/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Freenode</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的 #matterbridge 频道</font><font style="vertical-align: inherit;">（感谢</font></font><a href="https://github.com/42wim/matterircd"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Matterircd</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YouTube</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 订阅</font></font><a href="https://www.youtube.com/@MattermostHQ" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mattermost</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><a href="https://gitpod.io/#https://github.com/mattermost/mattermost" rel="nofollow"><img src="https://camo.githubusercontent.com/71276deb2627d25a942443813be2a18c1bb1a802d85ab9a30280b06274217175/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e74726962757465253230776974682d476974706f642d3930386138353f6c6f676f3d676974706f64" alt="小图片" data-canonical-src="https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="/mattermost/mattermost/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。
+</font></font><a href="https://community.mattermost.com/signup_user_complete/?id=codoy5s743rq5mk18i7u5ksz7e" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入 Mattermost 贡献者服务器，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入有关贡献、开发等的社区讨论。</font></font></p>
+</article></div>
